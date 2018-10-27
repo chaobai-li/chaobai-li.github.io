@@ -2,10 +2,20 @@
 <head>
 <meta http-equiv="Content-Security-Policy" content="
     default-src 'self';
-    {% if page.allow_script != true %}script-src 'none';{% endif %}
+    script-src {% if page.scripts %}'self'{% else %}'none'{% endif %};
 ">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
+
+{% if page.scripts %}{% for js in page.scripts %}
+<script src="{{ js.url }}"></script>
+{% endfor %}{% endif %}
+
+<link href="/css/global.css" rel="stylesheet" />
+{% if page.styles %}{% for css in page.styles %}
+<link href="{{ css.url }}" rel="stylesheet" />
+{% endfor %}{% endif %}
+
 {% if page.title %}
 <title>{{ page.title }} - {{ site.title }}</title>
 {% else %}

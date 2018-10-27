@@ -1,0 +1,16 @@
+body {
+    padding: 2em;
+    font-size: 11pt;
+    font-family: monospace;
+    background: #FFFFCC;
+}
+
+hr {
+    margin: 2em 0em 2em 0em;
+    border: 1px solid black;
+}
+
+textarea,input,button {
+    border: 1px solid black;
+    padding: 0.5em 2em 0.5em 2em;
+}
