@@ -23,8 +23,8 @@ confidential message, we may detect whether a piece of message is written by a
 said author.
 
 
-
-## [A.](#encrypt) 向我发送加密的消息 / To send me encrypted message
+<div id="e"></div>
+## [A.](#e) 向我发送加密的消息 / To send me encrypted message
 
 您可以撰写将要秘密传送给我的信息，利用这个页面的工具将之加密。
 加密后，信息就只有我才可以看到(\*)。
@@ -38,7 +38,7 @@ text.](/contact)
 _(\*) 然而，我无法确信所读到的消息确实由您发送---例如，也许有其他人会模仿您的口吻。
 如果要保证这一点，您需要使用和我类似的数字签名技术及软件，签署自己撰写的信息。_
 
-_(\*) However, I cannot assure the message I read was indeed written by you---
+_(\*) However, I cannot assure the message I read was indeed written by you ---
 for example, someone will possibly impersonate you. To prove your identity,
 you need to utilize similar technology and software as I did, and sign your message._
 
@@ -54,7 +54,8 @@ you need to utilize similar technology and software as I did, and sign your mess
 
 
 
-## [B.](#verify) 验证一段消息是否由我撰写 / To verify a message was written by me
+<div id="v"></div>
+## [B.](#v) 验证一段消息是否由我撰写 / To verify a message was written by me
 
 
 如果您从其他渠道看到了声称是我撰写的某些经过**数字签名**的文本，

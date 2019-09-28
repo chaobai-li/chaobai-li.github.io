@@ -3,6 +3,7 @@ body {
     font-size: 11pt;
     font-family: monospace;
     background: #FFFFCC;
+    line-height: 1.8em;
 }
 
 hr {
