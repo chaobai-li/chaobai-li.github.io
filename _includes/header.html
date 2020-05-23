@@ -1,11 +1,14 @@
 <html>
 <head>
 <meta http-equiv="Content-Security-Policy" content="
-    default-src 'self';
+    default-src 'self' fonts.googleapis.com fonts.gstatic.com;
     script-src {% if page.scripts %}'self'{% else %}'none'{% endif %};
 ">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap" rel="stylesheet">
+
 
 {% if page.scripts %}{% for js in page.scripts %}
 <script src="{{ js.url }}"></script>

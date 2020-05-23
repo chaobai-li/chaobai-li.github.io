@@ -6,7 +6,7 @@ layout: default
 
 Welcome to visit my website. This is the personal website of LI, Chaobai.
 
-## 一些学术文章 / Some Academic Articles
+## Some academic articles <small>一些学术文章</small>
 
 
 * Kennfeldabschätzung für Radialturbinen
@@ -24,6 +24,58 @@ Welcome to visit my website. This is the personal website of LI, Chaobai.
   * [全文下载 Fulltext][BACHELOR-DOWNLOAD] **只有中文版 Chinese version only**
   * [答辩讲稿 Scripts for Defense][BACHELOR-DOWNLOAD-DEFENSE] **只有中文版 Chinese version only**
 
+
+## My hobbies & project ideas <small>个人爱好，想做的项目</small>
+
+### Applications in cryptography, software or hardware <small>关于密码学的应用，包括软件和硬件</small>
+
+<div class="row">
+
+<div class="column">
+
+_Ideas / 想法_
+
+**Signal-alike protocol on Basiccard**
+[BasicCard from Zeitcontrol](http://basiccard.com) are smartcards which can
+programmed via a BASIC dialect. Is it possible to implement the whole key
+exchange and management for encrypted peer-to-peer chat, as used by
+[Signal](https://en.wikipedia.org/wiki/Signal_Protocol), on the card?
+
+**sphincsplus.js** In 2017 an algorithm named SPINCS+, designed for digital
+signatures in post-quantum era, was submitted to NIST. It's time to consider a
+pure-JS implementation.
+
+**Design a wireless & cryptographically secured door locking system.** I'm not
+satisfied with existing electronic door locks. A good system should have no
+physical sensors/readers mounted "outside"(a mechanical failback is
+acceptable).  To open the door, it must be done completely wireless yet secure.
+The mechanical backup is only activated when electrics failed.
+
+
+</div>
+
+<div class="column">
+
+_In progress or done / 正在或已经完成的_
+
+**[node-salsa20][NODESALSA20]** A
+[Salsa20](https://en.wikipedia.org/wiki/Salsa20) implementation in JavaScript.
+Despite the name, it works in both NodeJS and browser.
+
+[NODESALSA20]: https://github.com/neoatlantis/node-salsa20
+
+
+**[manjusaka3][MANJUSAKA3]** _in progress_ Generate web pages that self-decrypt
+messages based on answers provided by a user. May have various applications,
+but initially it's intended to leave post-mortem messages, which have not been
+determined yet.
+
+[MANJUSAKA3]: https://github.com/neoatlantis/manjusaka3
+
+
+</div>
+
+</div>
 
 
 

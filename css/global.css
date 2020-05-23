@@ -1,9 +1,9 @@
 body {
-    padding: 2em;
+    padding: 3% 5% 3% 5%;
     font-size: 11pt;
-    font-family: monospace;
+    font-family: 'Noto Sans SC', sans-serif;
     background: #FFFFCC;
-    line-height: 1.8em;
+    line-height: 1.5rem;
 }
 
 hr {
@@ -14,4 +14,30 @@ hr {
 textarea,input,button {
     border: 1px solid black;
     padding: 0.5em 2em 0.5em 2em;
+}
+
+.footer{
+    font-size: 0.7rem;
+    line-height: 1.2rem;
+}
+
+h1>small, h2>small, h3>small{
+    color: #444;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 }

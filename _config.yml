@@ -26,6 +26,9 @@ github_username:  neoatlantis
 
 # Build settings
 markdown: kramdown
+kramdown:
+    parse_block_html: true
+    parse_span_html: true
 #theme: minima
 plugins: []
 #  - jekyll-feed
