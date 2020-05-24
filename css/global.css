@@ -40,4 +40,5 @@ h1>small, h2>small, h3>small{
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
+  padding: 0px 3px 0px 3px;
 }

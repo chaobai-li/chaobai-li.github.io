@@ -27,7 +27,21 @@ Welcome to visit my website. This is the personal website of LI, Chaobai.
 
 ## My hobbies & project ideas <small>个人爱好，想做的项目</small>
 
-### Applications in cryptography, software or hardware <small>关于密码学的应用，包括软件和硬件</small>
+### Applications in cryptography: software or hardware <small>关于密码学的应用，包括软件和硬件</small>
+
+<div class="row"><div class="column"> _Opinions / 观点_
+
+[**My thoughts on personal password managements**][THOUGHTS-PASSWORD](details in work) with
+protection against <u><i>evil humanity</i></u>. A password manager database
+never suffices, a hardware protected system neither. Something MUST be left out
+of human brain to prevent evil attack on human physically. And to solve this
+problem, a hierachy of passwords is needed.
+
+[THOUGHTS-PASSWORD]: {% post_url 2020-05-24-thoughts-on-password-managements %}
+
+
+</div></div>
+
 
 <div class="row">
 
@@ -36,7 +50,7 @@ Welcome to visit my website. This is the personal website of LI, Chaobai.
 _Ideas / 想法_
 
 **Signal-alike protocol on Basiccard**
-[BasicCard from Zeitcontrol](http://basiccard.com) are smartcards which can
+[BasicCard from Zeitcontrol](http://basiccard.com) are smartcards which can be
 programmed via a BASIC dialect. Is it possible to implement the whole key
 exchange and management for encrypted peer-to-peer chat, as used by
 [Signal](https://en.wikipedia.org/wiki/Signal_Protocol), on the card?
@@ -58,11 +72,14 @@ The mechanical backup is only activated when electrics failed.
 
 _In progress or done / 正在或已经完成的_
 
-**[node-salsa20][NODESALSA20]** A
-[Salsa20](https://en.wikipedia.org/wiki/Salsa20) implementation in JavaScript.
-Despite the name, it works in both NodeJS and browser.
 
-[NODESALSA20]: https://github.com/neoatlantis/node-salsa20
+**openpgpjs-cli** _planned_ Another GnuPG-alike tool, used for command line
+but is written in JavaScript utilizing
+[openpgp.js](https://github.com/openpgpjs/openpgpjs). GnuPG is great for human,
+but it's a pain to work with it from programs. Also reference: [
+Stateless OpenPGP Command Line Interface / draft-dkg-openpgp-stateless-cli-01](https://tools.ietf.org/html/draft-dkg-openpgp-stateless-cli-01).
+
+
 
 
 **[manjusaka3][MANJUSAKA3]** _in progress_ Generate web pages that self-decrypt
@@ -73,9 +90,18 @@ determined yet.
 [MANJUSAKA3]: https://github.com/neoatlantis/manjusaka3
 
 
-</div>
+**[node-salsa20][NODESALSA20]** A
+[Salsa20](https://en.wikipedia.org/wiki/Salsa20) implementation in JavaScript.
+Despite the name, it works in both NodeJS and browser.
+
+[NODESALSA20]: https://github.com/neoatlantis/node-salsa20
+
 
 </div>
+
+
+</div>
+
 
 
 
