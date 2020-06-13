@@ -77,7 +77,7 @@ _In progress or done / 正在或已经完成的_
 but is written in JavaScript utilizing
 [openpgp.js](https://github.com/openpgpjs/openpgpjs). GnuPG is great for human,
 but it's a pain to work with it from programs. Also reference: [
-Stateless OpenPGP Command Line Interface / draft-dkg-openpgp-stateless-cli-01](https://tools.ietf.org/html/draft-dkg-openpgp-stateless-cli-01).
+Stateless OpenPGP Command Line Interface / draft-dkg-openpgp-stateless-cli-02](https://www.ietf.org/id/draft-dkg-openpgp-stateless-cli-02.html).
 
 
 
