@@ -21,7 +21,7 @@ Aim of the design is doing a lighting artwork. Details of this artwork leaves
 to each team, but they should all represent the status of a few "portals". In
 Ingress, a portal is an in-game virtual object, but have a corresponding
 geolocation where a real thing like a sculpture, an artwork, a place with
-historical evidence, etc. exists.
+historical significance, etc. exists.
 
 With mobile phones running Ingress, portals can be interacted by players
 physically nearby. Interactions within the game, like capturing (aligning the
